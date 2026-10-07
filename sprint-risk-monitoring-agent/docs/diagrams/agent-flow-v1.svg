@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 820" font-family="Helvetica, Arial, sans-serif">
+<title>Sprint Risk Monitoring Agent - luồng v1.0 (đã triển khai)</title>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#374151"/></marker></defs>
+<rect width="720" height="820" fill="#fff"/>
+<text x="360" y="26" text-anchor="middle" font-size="16" font-weight="bold">Luồng v1.0 (rule-based, đã triển khai &amp; có test)</text>
+<rect x="260" y="45" width="200" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/><text x="360.0" y="58.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">init_session</text><text x="360.0" y="76.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">kiểm tra circuit breaker</text>
+<rect x="60" y="125" width="140" height="44" rx="8" fill="#ecfdf5" stroke="#059669"/><text x="130.0" y="140.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">fetch_jira</text><text x="130.0" y="158.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">redact tại đây</text>
+<line x1="360" y1="85" x2="130" y2="125" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="130" y1="169" x2="360" y2="215" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="290" y="125" width="140" height="44" rx="8" fill="#ecfdf5" stroke="#059669"/><text x="360.0" y="140.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">fetch_github</text><text x="360.0" y="158.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">redact tại đây</text>
+<line x1="360" y1="85" x2="360" y2="125" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="360" y1="169" x2="360" y2="215" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="520" y="125" width="140" height="44" rx="8" fill="#ecfdf5" stroke="#059669"/><text x="590.0" y="140.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">fetch_slack</text><text x="590.0" y="158.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">redact tại đây</text>
+<line x1="360" y1="85" x2="590" y2="125" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="590" y1="169" x2="360" y2="215" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="240" y="215" width="240" height="48" rx="8" fill="#fef9c3" stroke="#ca8a04"/><text x="360.0" y="232.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">correlate_signals</text><text x="360.0" y="250.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">rule: ≥2/3 nguồn mới gán risk_level</text>
+<line x1="360" y1="263" x2="170" y2="320" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="360" y1="263" x2="550" y2="320" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="60" y="320" width="220" height="40" rx="8" fill="#f3f4f6" stroke="#6b7280"/><text x="170.0" y="333.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">draft_digest</text><text x="170.0" y="351.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">LOW / MEDIUM</text>
+<rect x="440" y="320" width="220" height="40" rx="8" fill="#f3f4f6" stroke="#6b7280"/><text x="550.0" y="333.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">draft_action_plan</text><text x="550.0" y="351.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">HIGH / CRITICAL (schema PMBOK)</text>
+<line x1="170" y1="360" x2="170" y2="410" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="550" y1="360" x2="550" y2="410" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="60" y="410" width="220" height="40" rx="8" fill="#fee2e2" stroke="#dc2626"/><text x="170.0" y="423.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">spot_check (nhẹ)</text><text x="170.0" y="441.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">interrupt() — PM duyệt</text>
+<rect x="440" y="410" width="220" height="40" rx="8" fill="#fee2e2" stroke="#dc2626"/><text x="550.0" y="423.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">human_approval (đầy đủ)</text><text x="550.0" y="441.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">interrupt() — PM duyệt</text>
+<line x1="170" y1="450" x2="170" y2="540" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="550" y1="450" x2="550" y2="540" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="60" y="540" width="220" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/><text x="170.0" y="553.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">send_digest</text><text x="170.0" y="571.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">Slack kênh team</text>
+<rect x="440" y="540" width="220" height="52" rx="8" fill="#e0f2fe" stroke="#0284c7"/><text x="550.0" y="559.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">escalate</text><text x="550.0" y="577.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">Jira (idempotent) → Slack Ban giám đốc</text>
+<line x1="170" y1="580" x2="300" y2="660" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="550" y1="592" x2="420" y2="660" stroke="#374151" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="240" y="660" width="240" height="40" rx="8" fill="#e0f2fe" stroke="#0284c7"/><text x="360.0" y="673.0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#111">cleanup_session</text><text x="360.0" y="691.0" text-anchor="middle" dominant-baseline="central" font-size="11" fill="#555">ghi audit log JSONL</text>
+<path d="M60,430 C20,430 20,340 60,340" fill="none" stroke="#dc2626" stroke-dasharray="4 3" marker-end="url(#a)"/><text x="12" y="395" font-size="10" fill="#dc2626" transform="rotate(-90 12 395)">edit (tối đa 3 lần)</text>
+<path d="M660,430 C700,430 700,340 660,340" fill="none" stroke="#dc2626" stroke-dasharray="4 3" marker-end="url(#a)"/><text x="708" y="395" font-size="10" fill="#dc2626" transform="rotate(90 708 395)">edit (tối đa 3 lần)</text>
+<text x="360" y="735" text-anchor="middle" font-size="12" fill="#555">reject / quyết định không hợp lệ → cleanup_session (không gửi gì)</text>
+<text x="360" y="755" text-anchor="middle" font-size="12" fill="#555">breaker bật → init_session đi thẳng tới cleanup_session (MANUAL_MODE)</text>
+<text x="360" y="790" text-anchor="middle" font-size="11" fill="#888">Checkpointer: MemorySaver (dev/test). MCP thật chưa nối — xem README.</text></svg>
