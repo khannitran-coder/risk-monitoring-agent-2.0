@@ -57,14 +57,6 @@ approve / edit / reject >
 
 ![Luồng v1.0](./docs/diagrams/agent-flow-v1.svg)
 
-```
-init_session ─► fetch_jira | fetch_github | fetch_slack (song song, redact ngay tại đây)
-             ─► correlate_signals (rule, không LLM)
-   LOW/MEDIUM  ─► draft_digest      ─► spot_check (nhẹ)        ─► send_digest ─► cleanup
-   HIGH/CRIT   ─► draft_action_plan ─► human_approval (đầy đủ) ─► escalate    ─► cleanup
-   edit → soạn lại (tối đa 3 lần) · reject / quyết định lạ → cleanup, không gửi gì
-```
-
 ### Rule gán mức rủi ro (`nodes/correlate.py`, ngưỡng ở `config.py`)
 
 | Số nguồn xác nhận 1 ticket | Điều kiện | Mức |
