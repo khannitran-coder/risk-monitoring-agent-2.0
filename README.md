@@ -102,6 +102,3 @@ docs/                    SOP · design-notes · case-study · roadmap-v2 · rag-
 
 *Chưa có.* Chỉ số dự kiến (planned, not yet measured): tỉ lệ báo động giả; % bản nháp bị edit/reject; thời gian chờ duyệt; số ticket Jira trùng; thời gian tiết kiệm so với baseline Time Audit của SOP.
 
-## License
-
-MIT — xem [LICENSE](./LICENSE).
