@@ -1,8 +1,10 @@
 """Verify synthetic risk flow with a human reject checkpoint; no external writes."""
 from datetime import date
+
 from sprint_risk_agent.graph import build_graph
 from sprint_risk_agent.mcp_clients.fake import demo_clients
 from sprint_risk_agent.runner import pending_interrupt, resume_run, start_run
+
 
 def main():
     clients = demo_clients(date(2026, 10, 7))

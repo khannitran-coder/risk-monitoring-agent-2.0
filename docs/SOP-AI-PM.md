@@ -6,83 +6,47 @@
 
 | Phiên bản | Ngày | Người sở hữu | Nội dung thay đổi |
 | :---- | :---- | :---- | :---- |
-| 1.0 | 15/07/2026 | Project Manager (chủ tài liệu) | Khởi tạo SOP cá nhân hóa: thay toàn bộ bảng mẫu ở Giai đoạn 1–3 bằng 24 pain point thật (sau đó bổ sung thêm 3 pain point PP-25–PP-27 theo phản hồi review), phân theo 4 cấp độ Cơ bản → Chuyên sâu/Chiến lược, gắn khung Automation/Assistance/Augmentation (PMBOK X3.1.1). |
-| 1.1 | 16/07/2026 | Project Manager (chủ tài liệu) | Bổ sung ví dụ AI Agent (khác AI Assistant) vào các pain point phù hợp; thêm 3 pain point mới sau khi đối chiếu với 1 infographic tham khảo: PP-25 Soạn agenda trước họp, PP-26 Dựng Gantt & Critical Path nháp, PP-27 Phân tích nguyên nhân gốc & so sánh phương án xử lý (Problem Solving). |
-| 1.2 | 16/07/2026 | Project Manager (chủ tài liệu) | Bổ sung PP-28 Compliance và PP-29 Quality sau khi đối chiếu với khung 9 agent chuyên biệt (Planning/Risk/Finance/Compliance/Procurement/Scheduling/Reporting/Documentation/Quality Agent); thêm mục "Lộ trình dài hạn — từ Pain Point riêng lẻ đến hệ Agent chuyên biệt" làm bản đồ định hướng, không thay đổi cấu trúc vận hành hiện tại. |
-| 1.3 | 16/07/2026 | Project Manager (chủ tài liệu) | Viết lại hoàn toàn Giai đoạn 9: thay thư viện prompt tĩnh (copy–paste thủ công) bằng khung Skill Card (Trigger/Input/Rule bất biến/Output/Checkpoint/Vai trò AI) — đóng gói 1 lần, dùng lại nhiều lần, không phụ thuộc 1 công cụ AI cụ thể. Bổ sung 11 Skill Card đại diện 4 cấp độ \+ bảng tổng hợp khả năng đóng gói Skill cho toàn bộ 29 pain point. |
-| 1.4 | 05/09/2026 | Project Manager (chủ tài liệu) | Sau review kỹ thuật (Agentic Engineering): thêm trường "Harness cần thiết" vào Skill Card (12 card, bổ sung PP-13); viết lại 5 Rule bất biến định lượng (PP-06, PP-13, PP-18, PP-28, PP-21) sang định dạng Given–When–Then (Gherkin); thêm cột "Nguồn dữ liệu tham chiếu" ở Giai đoạn 3.1; thêm cảnh báo chống "Context Rot" ở mục 9.6; mở rộng Data Fabrication Test (5.1) để kiểm tra cả nguồn dữ liệu chứ không chỉ output; thêm bước tự kiểm tra định kỳ ở Giai đoạn 10 (rút gọn từ mô hình Red Team, làm thủ công quy mô cá nhân). |
+| 1.0 | 15/07/2026 | Trần Khánh Chi | Khởi tạo SOP cá nhân hóa: thay toàn bộ bảng mẫu ở Giai đoạn 1–3 bằng 24 pain point thật (sau đó bổ sung thêm 3 pain point PP-25–PP-27), phân theo 4 cấp độ Cơ bản → Chuyên sâu/Chiến lược, gắn khung Automation/Assistance/Augmentation (PMBOK X3.1.1). |
+| 1.1 | 16/07/2026 | Trần Khánh Chi | Bổ sung ví dụ AI Agent (khác AI Assistant) vào các pain point phù hợp; thêm 3 pain point mới sau khi đối chiếu với tài liệu tham khảo: PP-25 Soạn agenda trước họp, PP-26 Dựng Gantt & Critical Path nháp, PP-27 Phân tích nguyên nhân gốc & so sánh phương án xử lý (Problem Solving). |
+| 1.2 | 16/07/2026 | Trần Khánh Chi | Bổ sung PP-28 Compliance và PP-29 Quality sau khi đối chiếu với khung 9 agent chuyên biệt (Planning/Risk/Finance/Compliance/Procurement/Scheduling/Reporting/Documentation/Quality Agent); thêm mục "Lộ trình dài hạn — từ Pain Point riêng lẻ đến hệ Agent chuyên biệt" làm bản đồ định hướng, không thay đổi cấu trúc vận hành hiện tại. |
+| 1.3 | 16/07/2026 | Trần Khánh Chi | Viết lại hoàn toàn Giai đoạn 9: thay thư viện prompt tĩnh (copy–paste thủ công) bằng khung Skill Card (Trigger/Input/Rule bất biến/Output/Checkpoint/Vai trò AI) — đóng gói 1 lần, dùng lại nhiều lần, không phụ thuộc 1 công cụ AI cụ thể. Bổ sung 11 Skill Card đại diện 4 cấp độ + bảng tổng hợp khả năng đóng gói Skill cho toàn bộ 29 pain point. |
+| 1.4 | 05/09/2026 | Trần Khánh Chi | Sau review kỹ thuật (Agentic Engineering): thêm trường "Harness cần thiết" vào Skill Card (12 card, bổ sung PP-13); viết lại 5 Rule bất biến định lượng (PP-06, PP-13, PP-18, PP-28, PP-21) sang định dạng Given–When–Then (Gherkin); thêm cột "Nguồn dữ liệu tham chiếu" ở Giai đoạn 3.1; thêm cảnh báo chống "Context Rot" ở mục 9.6; mở rộng Data Fabrication Test (5.1) để kiểm tra cả nguồn dữ liệu chứ không chỉ output; thêm bước tự kiểm tra định kỳ ở Giai đoạn 10 (rút gọn từ mô hình Red Team, làm thủ công quy mô cá nhân). |
 
 # Mục lục
 
-[Mục lục	2](#heading=)
-
-[Ghi chú sử dụng tài liệu	3](#heading=)
-
-[GIAI ĐOẠN 1 — NGHIÊN CỨU SÂU & XÁC ĐỊNH PAIN POINT	3](#heading=)
-
-[1.1 Vì sao phải nghiên cứu sâu trước khi nghĩ đến tool	3](#heading=)
-
-[1.2 Kỹ thuật thu thập Pain Point (áp dụng lên chính công việc mình)	3](#heading=)
-
-[1.3 Bộ câu hỏi Self-Interview theo từng Focus Area — mở rộng đến cấp Master	3](#heading=)
-
-[1.4 Pain Point Inventory — Dữ liệu thật, dùng lâu dài	4](#heading=)
-
-[GIAI ĐOẠN 2 — PHÂN TÍCH & ƯU TIÊN HÓA PAIN POINT	7](#heading=)
-
-[2.1 Ma trận Impact–Effort (chọn pain point nào làm trước)	7](#heading=)
-
-[GIAI ĐOẠN 3 — NGHIÊN CỨU & ĐỀ XUẤT CÔNG CỤ AI THEO TỪNG PAIN POINT	8](#heading=)
-
-[3.1 Bản đồ Pain Point → Loại công cụ AI	8](#heading=)
-
-[3.2 Scoring Rubric chọn công cụ AI (áp dụng cho công cụ PM)	11](#heading=)
-
-[3.3 Recommendation Memo mẫu — PP-06 (Status Report Assistant)	12](#heading=)
-
-[GIAI ĐOẠN 4 — THIẾT KẾ THỬ NGHIỆM (PILOT) CHO TỪNG USE CASE	12](#heading=)
-
-[GIAI ĐOẠN 5 — TEST & KIỂM SOÁT CHẤT LƯỢNG	12](#heading=)
-
-[5.1 Bộ Test Case riêng cho AI hỗ trợ công việc PM	12](#heading=)
-
-[5.2 Nguyên tắc "Human-in-the-loop bắt buộc" theo cấp độ	13](#heading=)
-
-[GIAI ĐOẠN 6 — TÍCH HỢP VÀO QUY TRÌNH QUẢN LÝ DỰ ÁN THẬT	13](#heading=)
-
-[6.1 Bảng "AI-Augmented PM Workflow" — quy trình cũ vs quy trình mới	13](#heading=)
-
-[6.2 Nhịp độ tích hợp vào lịch làm việc tuần của PM	14](#heading=)
-
-[GIAI ĐOẠN 7 — ĐÓNG GÓI THÀNH SOP VẬN HÀNH CHÍNH THỨC	14](#heading=)
-
-[7.1 Cấu trúc SOP cá nhân hóa (dùng lâu dài, cập nhật định kỳ)	14](#heading=)
-
-[7.2 Nguyên tắc đóng gói cuối cùng	14](#heading=)
-
-[GIAI ĐOẠN 8 — ĐO LƯỜNG HIỆU QUẢ SAU TRIỂN KHAI	14](#heading=)
-
-[GIAI ĐOẠN 9 — PHỤ LỤC: SKILL CARD THEO USE CASE	15](#heading=)
-
-[9.1 Vì sao không dùng "Thư viện Prompt" tĩnh nữa	15](#heading=)
-
-[9.2 Cấu trúc chuẩn của 1 Skill Card	15](#heading=)
-
-[9.3 Thư viện Skill Card — 12 use case đại diện cho 4 cấp độ	15](#heading=)
-
-[9.4 Bảng tổng hợp — 29 pain point, đóng gói Skill được không, mức tự chủ cho phép	19](#heading=)
-
-[9.5 Cách lưu Skill Card để dùng lại — không phụ thuộc 1 công cụ AI cụ thể	21](#heading=)
-
-[9.6 Cảnh báo "Context Rot" — không nạp dồn nhiều Skill Card cùng lúc	21](#heading=)
-
-[GIAI ĐOẠN 10 — QUẢN TRỊ RỦI RO & ĐẠO ĐỨC KHI PM DÙNG AI	21](#heading=)
-
-[LỘ TRÌNH DÀI HẠN — TỪ PAIN POINT RIÊNG LẺ ĐẾN HỆ AGENT CHUYÊN BIỆT	21](#heading=)
-
-[TÓM TẮT QUY TRÌNH END-TO-END	22](#heading=)
-
-*Sau khi mở file trong Word, click chuột phải vào bảng Mục lục → "Update Field" để đồng bộ số trang.*
+- [Ghi chú sử dụng tài liệu](#ghi-chú-sử-dụng-tài-liệu)
+- [GIAI ĐOẠN 1 — NGHIÊN CỨU SÂU & XÁC ĐỊNH PAIN POINT](#giai-đoạn-1--nghiên-cứu-sâu--xác-định-pain-point)
+  - [1.1 Vì sao phải nghiên cứu sâu trước khi nghĩ đến tool](#11-vì-sao-phải-nghiên-cứu-sâu-trước-khi-nghĩ-đến-tool)
+  - [1.2 Kỹ thuật thu thập Pain Point (áp dụng lên chính công việc mình)](#12-kỹ-thuật-thu-thập-pain-point-áp-dụng-lên-chính-công-việc-mình)
+  - [1.3 Bộ câu hỏi Self-Interview theo từng Focus Area — mở rộng đến cấp Master](#13-bộ-câu-hỏi-self-interview-theo-từng-focus-area--mở-rộng-đến-cấp-master)
+  - [1.4 Pain Point Inventory — Dữ liệu thật, dùng lâu dài](#14-pain-point-inventory--dữ-liệu-thật-dùng-lâu-dài)
+- [GIAI ĐOẠN 2 — PHÂN TÍCH & ƯU TIÊN HÓA PAIN POINT](#giai-đoạn-2--phân-tích--ưu-tiên-hóa-pain-point)
+  - [2.1 Ma trận Impact–Effort (chọn pain point nào làm trước)](#21-ma-trận-impacteffort-chọn-pain-point-nào-làm-trước)
+- [GIAI ĐOẠN 3 — NGHIÊN CỨU & ĐỀ XUẤT CÔNG CỤ AI THEO TỪNG PAIN POINT](#giai-đoạn-3--nghiên-cứu--đề-xuất-công-cụ-ai-theo-từng-pain-point)
+  - [3.1 Bản đồ Pain Point → Loại công cụ AI](#31-bản-đồ-pain-point--loại-công-cụ-ai)
+  - [3.2 Scoring Rubric chọn công cụ AI (áp dụng cho công cụ PM)](#32-scoring-rubric-chọn-công-cụ-ai-áp-dụng-cho-công-cụ-pm)
+  - [3.3 Recommendation Memo mẫu — PP-06 (Status Report Assistant)](#33-recommendation-memo-mẫu--pp-06-status-report-assistant)
+- [GIAI ĐOẠN 4 — THIẾT KẾ THỬ NGHIỆM (PILOT) CHO TỪNG USE CASE](#giai-đoạn-4--thiết-kế-thử-nghiệm-pilot-cho-từng-use-case)
+- [GIAI ĐOẠN 5 — TEST & KIỂM SOÁT CHẤT LƯỢNG](#giai-đoạn-5--test--kiểm-soát-chất-lượng)
+  - [5.1 Bộ Test Case riêng cho AI hỗ trợ công việc PM](#51-bộ-test-case-riêng-cho-ai-hỗ-trợ-công-việc-pm)
+  - [5.2 Nguyên tắc "Human-in-the-loop bắt buộc" theo cấp độ](#52-nguyên-tắc-human-in-the-loop-bắt-buộc-theo-cấp-độ)
+- [GIAI ĐOẠN 6 — TÍCH HỢP VÀO QUY TRÌNH QUẢN LÝ DỰ ÁN THẬT](#giai-đoạn-6--tích-hợp-vào-quy-trình-quản-lý-dự-án-thật)
+  - [6.1 Bảng "AI-Augmented PM Workflow" — quy trình cũ vs quy trình mới](#61-bảng-ai-augmented-pm-workflow--quy-trình-cũ-vs-quy-trình-mới)
+  - [6.2 Nhịp độ tích hợp vào lịch làm việc tuần của PM](#62-nhịp-độ-tích-hợp-vào-lịch-làm-việc-tuần-của-pm)
+- [GIAI ĐOẠN 7 — ĐÓNG GÓI THÀNH SOP VẬN HÀNH CHÍNH THỨC](#giai-đoạn-7--đóng-gói-thành-sop-vận-hành-chính-thức)
+  - [7.1 Cấu trúc SOP cá nhân hóa (dùng lâu dài, cập nhật định kỳ)](#71-cấu-trúc-sop-cá-nhân-hóa-dùng-lâu-dài-cập-nhật-định-kỳ)
+  - [7.2 Nguyên tắc đóng gói cuối cùng](#72-nguyên-tắc-đóng-gói-cuối-cùng)
+- [GIAI ĐOẠN 8 — ĐO LƯỜNG HIỆU QUẢ SAU TRIỂN KHAI](#giai-đoạn-8--đo-lường-hiệu-quả-sau-triển-khai)
+- [GIAI ĐOẠN 9 — PHỤ LỤC: SKILL CARD THEO USE CASE](#giai-đoạn-9--phụ-lục-skill-card-theo-use-case)
+  - [9.1 Vì sao không dùng "Thư viện Prompt" tĩnh nữa](#91-vì-sao-không-dùng-thư-viện-prompt-tĩnh-nữa)
+  - [9.2 Cấu trúc chuẩn của 1 Skill Card](#92-cấu-trúc-chuẩn-của-1-skill-card)
+  - [9.3 Thư viện Skill Card — 12 use case đại diện cho 4 cấp độ](#93-thư-viện-skill-card--12-use-case-đại-diện-cho-4-cấp-độ)
+  - [9.4 Bảng tổng hợp — 29 pain point, đóng gói Skill được không, mức tự chủ cho phép](#94-bảng-tổng-hợp--29-pain-point-đóng-gói-skill-được-không-mức-tự-chủ-cho-phép)
+  - [9.5 Cách lưu Skill Card để dùng lại — không phụ thuộc 1 công cụ AI cụ thể](#95-cách-lưu-skill-card-để-dùng-lại--không-phụ-thuộc-1-công-cụ-ai-cụ-thể)
+  - [9.6 Cảnh báo "Context Rot" — không nạp dồn nhiều Skill Card cùng lúc](#96-cảnh-báo-context-rot--không-nạp-dồn-nhiều-skill-card-cùng-lúc)
+- [GIAI ĐOẠN 10 — QUẢN TRỊ RỦI RO & ĐẠO ĐỨC KHI PM DÙNG AI](#giai-đoạn-10--quản-trị-rủi-ro--đạo-đức-khi-pm-dùng-ai)
+- [LỘ TRÌNH DÀI HẠN — TỪ PAIN POINT RIÊNG LẺ ĐẾN HỆ AGENT CHUYÊN BIỆT](#lộ-trình-dài-hạn--từ-pain-point-riêng-lẻ-đến-hệ-agent-chuyên-biệt)
+- [TÓM TẮT QUY TRÌNH END-TO-END](#tóm-tắt-quy-trình-end-to-end)
 
 # **Ghi chú sử dụng tài liệu**
 
@@ -183,26 +147,26 @@ Bộ câu hỏi gốc chỉ dừng ở việc hành chính. Bản cập nhật t
 | PP-01 | Cơ bản | Initiating (Governance) | Soạn Project Charter / business case sơ bộ theo template có sẵn, tham chiếu dự án tương tự đã làm trước đó | Mỗi dự án mới | 2 giờ | 3 |
 | PP-02 | Cơ bản | Initiating (Stakeholders) | Lập danh sách & thông tin liên hệ stakeholder ban đầu (tên, vai trò, phòng ban, kênh liên lạc) | Mỗi dự án mới | 1 giờ | 2 |
 | PP-03 | Cơ bản | Planning (Scope) | Soạn WBS cấp 1–2 từ phạm vi (scope) đã thống nhất với khách hàng/sponsor | Mỗi dự án mới | 1,5 giờ | 2 |
-| PP-04 | Cơ bản | Executing | Ghi biên bản họp trong lúc họp \+ soạn action item kèm người phụ trách/deadline | 3 lần/tuần | 30 phút/lần | 3 |
+| PP-04 | Cơ bản | Executing | Ghi biên bản họp trong lúc họp + soạn action item kèm người phụ trách/deadline | 3 lần/tuần | 30 phút/lần | 3 |
 | PP-25 | Cơ bản | Executing | Soạn agenda trước mỗi cuộc họp quan trọng (mục tiêu, chủ đề, thời lượng từng phần) để họp đúng trọng tâm, tránh lan man | 3 lần/tuần | 10 phút/lần | 2 |
 | PP-05 | Cơ bản | Executing (Stakeholders) | Soạn email cập nhật định kỳ (routine) cho stakeholder theo mẫu lặp lại | 2 lần/tuần | 20 phút/lần | 2 |
-| PP-06 | Cơ bản | M\&C (Governance) | Tổng hợp 5 status update rời rạc từ các Trưởng phòng thành 1 báo cáo tuần | Hàng tuần | 2 giờ | 4 |
+| PP-06 | Cơ bản | M&C (Governance) | Tổng hợp 5 status update rời rạc từ các Trưởng phòng thành 1 báo cáo tuần | Hàng tuần | 2 giờ | 4 |
 | PP-07 | Cơ bản | Closing | Soạn checklist đóng dự án, thu hồi tài liệu/bàn giao vận hành | Cuối mỗi dự án | 1 giờ | 2 |
 | PP-08 | Trung cấp | Initiating (Stakeholders) | Phân tích quyền lực/lợi ích (Power–Interest Grid) và mức độ ủng hộ cho stakeholder phức tạp | Mỗi dự án mới | 1,5 giờ | 3 |
 | PP-09 | Trung cấp | Planning (Risk) | Soạn Risk Register ban đầu (định tính) cho dự án mới, dựa trên danh mục rủi ro chuẩn | Mỗi dự án mới | 3 giờ | 3 |
 | PP-10 | Trung cấp | Planning | Xây dựng RACI matrix cho dự án có nhiều phòng ban tham gia | Mỗi dự án mới | 1 giờ | 2 |
-| PP-26 | Trung cấp | Planning (Schedule) | Dựng khung Gantt chart nháp \+ xác định critical path ban đầu từ WBS/task list và thời lượng ước tính, trước khi tinh chỉnh trong công cụ lập lịch chuyên dụng | Mỗi dự án mới | 2 giờ | 3 |
+| PP-26 | Trung cấp | Planning (Schedule) | Dựng khung Gantt chart nháp + xác định critical path ban đầu từ WBS/task list và thời lượng ước tính, trước khi tinh chỉnh trong công cụ lập lịch chuyên dụng | Mỗi dự án mới | 2 giờ | 3 |
 | PP-11 | Trung cấp | Executing (Stakeholders) | Soạn email/thông điệp thuyết phục stakeholder khó tính, xử lý bất đồng nhẹ | 2 lần/tuần | 25 phút/lần | 4 |
-| PP-12 | Trung cấp | M\&C (Risk) | Chủ động rà soát & phát hiện rủi ro mới thay vì chỉ phản ứng khi vấn đề đã xảy ra | Hàng tuần | 1 giờ | 4 |
-| PP-13 | Trung cấp | M\&C (Governance) | Theo dõi Change Request, đánh giá sơ bộ tác động Scope/Schedule/Cost trước khi trình CCB | 1–2 lần/tuần | 45 phút/lần | 3 |
-| PP-27 | Trung cấp | M\&C | Khi có vấn đề phát sinh: phân tích nguyên nhân gốc (root cause, ví dụ khung fishbone/Ishikawa: People/Process/Tools/Environment) và so sánh các phương án xử lý theo Impact/Effort/Cost/Risk trước khi quyết định | Khi có vấn đề phát sinh | 1–2 giờ/lần | 3 |
+| PP-12 | Trung cấp | M&C (Risk) | Chủ động rà soát & phát hiện rủi ro mới thay vì chỉ phản ứng khi vấn đề đã xảy ra | Hàng tuần | 1 giờ | 4 |
+| PP-13 | Trung cấp | M&C (Governance) | Theo dõi Change Request, đánh giá sơ bộ tác động Scope/Schedule/Cost trước khi trình CCB | 1–2 lần/tuần | 45 phút/lần | 3 |
+| PP-27 | Trung cấp | M&C | Khi có vấn đề phát sinh: phân tích nguyên nhân gốc (root cause, ví dụ khung fishbone/Ishikawa: People/Process/Tools/Environment) và so sánh các phương án xử lý theo Impact/Effort/Cost/Risk trước khi quyết định | Khi có vấn đề phát sinh | 1–2 giờ/lần | 3 |
 | PP-28 | Trung cấp | Compliance / Governance | Rà soát tuân thủ (compliance) dự án theo quy định nội bộ/hợp đồng/pháp lý liên quan (VD: chính sách bảo mật dữ liệu, điều khoản hợp đồng, quy định ngành) trước các mốc quan trọng | Trước mỗi mốc quan trọng / theo quý | 2 giờ | 3 |
 | PP-29 | Trung cấp | Quality | Soạn/rà soát Definition of Done (DoD) và tiêu chí nghiệm thu (acceptance criteria) cho từng deliverable, theo dõi defect/rework để giảm Cost of Quality | Mỗi deliverable/sprint | 1 giờ/lần | 3 |
-| PP-14 | Trung cấp | Closing | Viết Lessons Learned \+ báo cáo tổng kết dự án từ nhiều nguồn tài liệu | Cuối mỗi dự án | 2 giờ | 2 |
+| PP-14 | Trung cấp | Closing | Viết Lessons Learned + báo cáo tổng kết dự án từ nhiều nguồn tài liệu | Cuối mỗi dự án | 2 giờ | 2 |
 | PP-15 | Nâng cao | Planning (Finance/Schedule) | Ước lượng effort/ngân sách dựa trên dữ liệu lịch sử nhiều dự án (analogous/parametric estimating) | Mỗi dự án mới | 4 giờ | 5 |
 | PP-16 | Nâng cao | Planning (Schedule/Resources) | Tối ưu lịch trình khi nguồn lực bị giới hạn (resource leveling, crashing, fast-tracking, phân tích đánh đổi) | Khi có xung đột nguồn lực | 3 giờ | 5 |
 | PP-17 | Nâng cao | Executing (Procurement) | Chuẩn bị hồ sơ đấu thầu/đàm phán vendor (RFP/RFQ, tiêu chí chọn nhà cung cấp) | Theo nhu cầu dự án | 4 giờ | 4 |
-| PP-18 | Nâng cao | M\&C (Finance) | Phân tích Earned Value Management: CPI, SPI, dự báo EAC/ETC/TCPI | Hàng tháng | 2 giờ | 4 |
+| PP-18 | Nâng cao | M&C (Finance) | Phân tích Earned Value Management: CPI, SPI, dự báo EAC/ETC/TCPI | Hàng tháng | 2 giờ | 4 |
 | PP-19 | Nâng cao | Stakeholders | Xử lý xung đột đa bên khi nhiều phòng ban tranh giành nguồn lực chung | Không cố định | 2–3 giờ/lần | 5 |
 | PP-20 | Nâng cao | Risk | Phân tích định lượng rủi ro (sensitivity analysis, tornado diagram, decision tree, mô phỏng) | Dự án rủi ro cao | 4 giờ | 5 |
 | PP-21 | Chuyên sâu / Chiến lược | Governance | Ra quyết định go/no-go tại phase gate dựa trên nhiều nguồn dữ liệu mâu thuẫn nhau | Mỗi phase gate | 3 giờ chuẩn bị | 5 |
@@ -236,7 +200,7 @@ Bộ câu hỏi gốc chỉ dừng ở việc hành chính. Bản cập nhật t
 | PP-01 | Soạn Charter/business case theo template | Cao | Trung bình | Nhóm 2 — làm sau Quick Win | Assistance (Hỗ trợ) |
 | PP-02 | Lập danh sách stakeholder ban đầu | Trung bình | Thấp | Quick Win | Automation (Tự động hóa) |
 | PP-03 | Soạn WBS cấp 1–2 từ scope đã có | Trung bình | Trung bình | Nhóm 2 | Assistance |
-| PP-04 | Ghi biên bản họp \+ action item | Cao | Thấp | Quick Win | Automation |
+| PP-04 | Ghi biên bản họp + action item | Cao | Thấp | Quick Win | Automation |
 | PP-25 | Soạn agenda trước họp | Trung bình | Thấp | Quick Win | Automation |
 | PP-05 | Soạn email cập nhật định kỳ | Trung bình | Thấp | Quick Win | Automation |
 | PP-06 | Tổng hợp status report tuần | Cao | Thấp | Quick Win — ưu tiên số 1 | Assistance |
@@ -285,35 +249,35 @@ Cột "Ví dụ công cụ" bên dưới phân biệt 2 dạng công cụ, vì m
 
 | Mã | Loại công cụ cần tìm | Nguồn dữ liệu tham chiếu | Ví dụ công cụ (tham khảo) | Vai trò AI |
 | :---- | :---- | :---- | :---- | :---- |
-| PP-01 | AI assistant giữ context dự án dài hạn \+ kho template Charter cũ | Kho Charter/Business case dự án cũ (Drive) | Claude Projects/Cowork (upload Charter mẫu \+ business case cũ) | Assistance (Hỗ trợ) |
+| PP-01 | AI assistant giữ context dự án dài hạn + kho template Charter cũ | Kho Charter/Business case dự án cũ (Drive) | Claude Projects/Cowork (upload Charter mẫu + business case cũ) | Assistance (Hỗ trợ) |
 | PP-02 | AI trích xuất & chuẩn hóa thông tin liên hệ; AI Agent có thể tự lấy trực tiếp từ hộp thư/Drive thay vì phải paste tay | Email/tài liệu liên hệ dự án trước (Drive/Email) | Claude/ChatGPT (paste dữ liệu thô); nâng cấp: AI Agent qua MCP (Google Drive) tự quét tài liệu dự án cũ để dựng danh sách | Automation (Tự động hóa) |
-| PP-03 | AI gợi ý decomposition theo cấu trúc WBS chuẩn | Scope Statement dự án hiện tại | Claude/ChatGPT \+ Project Scope Statement làm input | Assistance |
-| PP-04 | AI ghi âm \+ tóm tắt cuộc họp; AI Agent có thể tự tạo issue/task trực tiếp trên hệ thống quản lý công việc, không chỉ dừng ở bản tóm tắt | Bản ghi âm/transcript cuộc họp | Otter.ai, Fireflies, Zoom/Meet AI note; nâng cấp: AI Agent (Claude \+ MCP Jira/Atlassian) tự tạo Jira issue từ action item sau khi PM duyệt | Automation |
+| PP-03 | AI gợi ý decomposition theo cấu trúc WBS chuẩn | Scope Statement dự án hiện tại | Claude/ChatGPT + Project Scope Statement làm input | Assistance |
+| PP-04 | AI ghi âm + tóm tắt cuộc họp; AI Agent có thể tự tạo issue/task trực tiếp trên hệ thống quản lý công việc, không chỉ dừng ở bản tóm tắt | Bản ghi âm/transcript cuộc họp | Otter.ai, Fireflies, Zoom/Meet AI note; nâng cấp: AI Agent (Claude + MCP Jira/Atlassian) tự tạo Jira issue từ action item sau khi PM duyệt | Automation |
 | PP-25 | AI soạn agenda từ mục tiêu cuộc họp, có thể tham chiếu biên bản họp trước (PP-04) để tránh lặp chủ đề | Biên bản họp trước (nếu có) — tránh lặp chủ đề | Claude/ChatGPT (paste mục tiêu họp → agenda có timebox từng mục) | Automation |
 | PP-05 | AI soạn thảo văn bản theo template/tone cố định | Không cần nguồn ngoài — nội dung PM tự cung cấp | Claude/ChatGPT với style guide đã lưu | Automation |
-| PP-06 | Giai đoạn đầu: AI assistant giữ context (Charter, RAID log, báo cáo cũ), PM tự paste update. Giai đoạn trưởng thành: AI Agent tự vào Slack/Email/Jira lấy update, chỉ dừng lại hỏi PM khi thiếu dữ liệu | Charter \+ RAID Log \+ báo cáo tuần cũ (Claude Project); bản nâng cấp: Slack/Email/Jira | Claude Projects (paste tay) — xem Recommendation Memo ở mục 3.3; nâng cấp: AI Agent (Claude Cowork \+ MCP Slack/Email/Atlassian) tự thu thập update, PM chỉ duyệt bản nháp cuối | Assistance |
-| PP-07 | AI tạo checklist từ template chuẩn \+ scope dự án | Template checklist chuẩn \+ Scope dự án | Claude/ChatGPT | Automation |
-| PP-08 | AI hỗ trợ phân loại dựa trên dữ liệu tương tác đã ghi nhận | Ghi chú tương tác stakeholder đã có | Claude/ChatGPT \+ ghi chú tương tác stakeholder | Assistance |
-| PP-09 | AI gợi ý theo Risk Breakdown Structure (RBS): Technical, Management, Commercial, External; AI Agent có thể tự quét tài liệu dự án (Charter, Scope, email) để đề xuất rủi ro thay vì PM tự mô tả lại | Risk Breakdown Structure (RBS) chuẩn \+ tài liệu dự án | Claude/ChatGPT \+ checklist RBS PMBOK; nâng cấp: AI Agent (MCP Google Drive) đọc trực tiếp bộ tài liệu dự án để đề xuất Risk Register nháp | Assistance |
-| PP-10 | AI dựng bảng RACI từ danh sách hoạt động \+ vai trò | Danh sách hoạt động \+ sơ đồ tổ chức dự án | Claude/ChatGPT (skill xlsx nếu cần file Excel) | Automation |
-| PP-26 | AI dựng bảng Gantt nháp (task, duration, dependency) \+ gợi ý critical path từ dữ liệu WBS, PM tự kiểm tra logic phụ thuộc trước khi đưa vào công cụ chính thức | WBS \+ ước tính thời lượng từng task | Claude/ChatGPT (dựng bảng nháp) \+ MS Project/Excel để tinh chỉnh & xác nhận chính thức | Assistance |
+| PP-06 | Giai đoạn đầu: AI assistant giữ context (Charter, RAID log, báo cáo cũ), PM tự paste update. Giai đoạn trưởng thành: AI Agent tự vào Slack/Email/Jira lấy update, chỉ dừng lại hỏi PM khi thiếu dữ liệu | Charter + RAID Log + báo cáo tuần cũ (Claude Project); bản nâng cấp: Slack/Email/Jira | Claude Projects (paste tay) — xem Recommendation Memo ở mục 3.3; nâng cấp: AI Agent (Claude Cowork + MCP Slack/Email/Atlassian) tự thu thập update, PM chỉ duyệt bản nháp cuối | Assistance |
+| PP-07 | AI tạo checklist từ template chuẩn + scope dự án | Template checklist chuẩn + Scope dự án | Claude/ChatGPT | Automation |
+| PP-08 | AI hỗ trợ phân loại dựa trên dữ liệu tương tác đã ghi nhận | Ghi chú tương tác stakeholder đã có | Claude/ChatGPT + ghi chú tương tác stakeholder | Assistance |
+| PP-09 | AI gợi ý theo Risk Breakdown Structure (RBS): Technical, Management, Commercial, External; AI Agent có thể tự quét tài liệu dự án (Charter, Scope, email) để đề xuất rủi ro thay vì PM tự mô tả lại | Risk Breakdown Structure (RBS) chuẩn + tài liệu dự án | Claude/ChatGPT + checklist RBS PMBOK; nâng cấp: AI Agent (MCP Google Drive) đọc trực tiếp bộ tài liệu dự án để đề xuất Risk Register nháp | Assistance |
+| PP-10 | AI dựng bảng RACI từ danh sách hoạt động + vai trò | Danh sách hoạt động + sơ đồ tổ chức dự án | Claude/ChatGPT (skill xlsx nếu cần file Excel) | Automation |
+| PP-26 | AI dựng bảng Gantt nháp (task, duration, dependency) + gợi ý critical path từ dữ liệu WBS, PM tự kiểm tra logic phụ thuộc trước khi đưa vào công cụ chính thức | WBS + ước tính thời lượng từng task | Claude/ChatGPT (dựng bảng nháp) + MS Project/Excel để tinh chỉnh & xác nhận chính thức | Assistance |
 | PP-11 | AI soạn thảo theo phong cách giao tiếp (DISC) của từng stakeholder | Hồ sơ giao tiếp (DISC) từng stakeholder đã lưu | Claude/ChatGPT | Assistance |
-| PP-12 | Use case điển hình cho AI Agent: cần tự động quét nhiều nguồn (status update, email, Jira) liên tục theo thời gian, không phải hỏi-đáp 1 lượt | Status update \+ email \+ Jira liên tục (qua MCP) | AI Agent (Claude Cowork/Claude Code \+ MCP Email/Atlassian) chạy định kỳ, gắn cờ dấu hiệu rủi ro sớm (leading indicators) cho PM rà soát; bản đơn giản hơn: Claude Projects (dùng chung context với PP-06) | Assistance |
-| PP-13 | AI phân tích tác động dựa trên baseline hiện có; AI Agent có thể tự đọc issue mới trên hệ thống ticket và soạn nháp đánh giá tác động ngay khi Change Request được tạo | Scope/Schedule/Cost baseline hiện tại \+ Jira | Claude/ChatGPT \+ Scope/Schedule/Cost baseline; nâng cấp: AI Agent (MCP Atlassian Rovo) tự theo dõi Jira, soạn nháp đánh giá tác động cho từng CR mới | Assistance |
-| PP-27 | AI hỗ trợ liệt kê nguyên nhân gốc theo khung fishbone \+ dựng bảng so sánh phương án có điểm số (Impact/Effort/Cost/Risk), PM tự quyết định phương án cuối | Mô tả vấn đề \+ dữ liệu liên quan (nếu có) | Claude/ChatGPT (paste mô tả vấn đề → gợi ý nguyên nhân gốc \+ bảng so sánh phương án) | Assistance |
-| PP-28 | AI đối chiếu tài liệu dự án với checklist compliance chuẩn (nội bộ/hợp đồng), gắn cờ điểm thiếu sót; PM/bộ phận pháp lý luôn là người xác nhận cuối vì hậu quả pháp lý | Checklist compliance/hợp đồng do pháp lý cung cấp | Claude/ChatGPT \+ checklist compliance nội bộ; nâng cấp: AI Agent (MCP Drive/Atlassian) tự quét tài liệu dự án đối chiếu checklist | Assistance |
-| PP-29 | AI soạn nháp DoD/tiêu chí nghiệm thu theo khung Quality Performance Domain \+ tổng hợp log defect/rework để tính xu hướng Cost of Quality; PM luôn quyết định deliverable đạt/không đạt | Template DoD/tiêu chí nghiệm thu \+ log defect (Jira) | Claude/ChatGPT \+ skill quality-delivery-control (DoD templates, CoQ framework); nâng cấp: AI Agent theo dõi defect log tự động từ Jira | Assistance |
+| PP-12 | Use case điển hình cho AI Agent: cần tự động quét nhiều nguồn (status update, email, Jira) liên tục theo thời gian, không phải hỏi-đáp 1 lượt | Status update + email + Jira liên tục (qua MCP) | AI Agent (Claude Cowork/Claude Code + MCP Email/Atlassian) chạy định kỳ, gắn cờ dấu hiệu rủi ro sớm (leading indicators) cho PM rà soát; bản đơn giản hơn: Claude Projects (dùng chung context với PP-06) | Assistance |
+| PP-13 | AI phân tích tác động dựa trên baseline hiện có; AI Agent có thể tự đọc issue mới trên hệ thống ticket và soạn nháp đánh giá tác động ngay khi Change Request được tạo | Scope/Schedule/Cost baseline hiện tại + Jira | Claude/ChatGPT + Scope/Schedule/Cost baseline; nâng cấp: AI Agent (MCP Atlassian Rovo) tự theo dõi Jira, soạn nháp đánh giá tác động cho từng CR mới | Assistance |
+| PP-27 | AI hỗ trợ liệt kê nguyên nhân gốc theo khung fishbone + dựng bảng so sánh phương án có điểm số (Impact/Effort/Cost/Risk), PM tự quyết định phương án cuối | Mô tả vấn đề + dữ liệu liên quan (nếu có) | Claude/ChatGPT (paste mô tả vấn đề → gợi ý nguyên nhân gốc + bảng so sánh phương án) | Assistance |
+| PP-28 | AI đối chiếu tài liệu dự án với checklist compliance chuẩn (nội bộ/hợp đồng), gắn cờ điểm thiếu sót; PM/bộ phận pháp lý luôn là người xác nhận cuối vì hậu quả pháp lý | Checklist compliance/hợp đồng do pháp lý cung cấp | Claude/ChatGPT + checklist compliance nội bộ; nâng cấp: AI Agent (MCP Drive/Atlassian) tự quét tài liệu dự án đối chiếu checklist | Assistance |
+| PP-29 | AI soạn nháp DoD/tiêu chí nghiệm thu theo khung Quality Performance Domain + tổng hợp log defect/rework để tính xu hướng Cost of Quality; PM luôn quyết định deliverable đạt/không đạt | Template DoD/tiêu chí nghiệm thu + log defect (Jira) | Claude/ChatGPT + skill quality-delivery-control (DoD templates, CoQ framework); nâng cấp: AI Agent theo dõi defect log tự động từ Jira | Assistance |
 | PP-14 | AI tổng hợp từ toàn bộ tài liệu dự án làm input; AI Agent có thể tự thu thập tài liệu rải rác trên Drive/email trước khi tổng hợp | Toàn bộ tài liệu dự án (Drive) | Claude/ChatGPT (PM tự tập hợp tài liệu); nâng cấp: AI Agent (MCP Google Drive) tự gom tài liệu dự án rồi soạn nháp Lessons Learned | Assistance |
-| PP-15 | AI phân tích xu hướng từ dữ liệu lịch sử sạch, không giao toàn quyền quyết định | Dữ liệu lịch sử effort/ngân sách các dự án trước (Excel/Sheet) | Excel/Sheet dữ liệu lịch sử \+ AI phân tích xu hướng | Augmentation (KHÔNG giao quyết định) |
-| PP-16 | AI mô phỏng kịch bản đánh đổi Scope/Schedule/Cost, con người chọn phương án | Lịch trình hiện tại \+ ràng buộc nguồn lực (MS Project/Excel) | Claude/ChatGPT phân tích what-if \+ công cụ lập lịch (MS Project/Excel) | Augmentation |
-| PP-17 | AI soạn nháp RFP/RFQ \+ checklist tiêu chí đánh giá, PM tự thẩm định pháp lý; phù hợp AI Agent vì cần tự chạy nhiều bước research \+ tổng hợp trước khi ra bản nháp | Nghiên cứu thị trường \+ tiêu chí đánh giá vendor nội bộ | AI Agent (Claude Cowork, chế độ agentic research) tự tìm & so sánh nhà cung cấp trên web, soạn nháp RFP/RFQ; PM luôn tự thẩm định pháp lý trước khi phát hành | Assistance |
-| PP-18 | AI tính công thức EVM chuẩn \+ diễn giải kết quả dễ hiểu cho sponsor; AI Agent có thể tự kéo số liệu actual cost/tiến độ từ hệ thống tài chính/Jira thay vì PM nhập tay mỗi tháng | Số liệu PV/EV/AC đã tính từ hệ thống tài chính/Excel | Excel có công thức EVM \+ Claude diễn giải; nâng cấp: AI Agent (MCP kết nối hệ thống tài chính/Atlassian) tự lấy số liệu, PM chỉ đối chiếu & duyệt trước khi gửi | Assistance |
+| PP-15 | AI phân tích xu hướng từ dữ liệu lịch sử sạch, không giao toàn quyền quyết định | Dữ liệu lịch sử effort/ngân sách các dự án trước (Excel/Sheet) | Excel/Sheet dữ liệu lịch sử + AI phân tích xu hướng | Augmentation (KHÔNG giao quyết định) |
+| PP-16 | AI mô phỏng kịch bản đánh đổi Scope/Schedule/Cost, con người chọn phương án | Lịch trình hiện tại + ràng buộc nguồn lực (MS Project/Excel) | Claude/ChatGPT phân tích what-if + công cụ lập lịch (MS Project/Excel) | Augmentation |
+| PP-17 | AI soạn nháp RFP/RFQ + checklist tiêu chí đánh giá, PM tự thẩm định pháp lý; phù hợp AI Agent vì cần tự chạy nhiều bước research + tổng hợp trước khi ra bản nháp | Nghiên cứu thị trường + tiêu chí đánh giá vendor nội bộ | AI Agent (Claude Cowork, chế độ agentic research) tự tìm & so sánh nhà cung cấp trên web, soạn nháp RFP/RFQ; PM luôn tự thẩm định pháp lý trước khi phát hành | Assistance |
+| PP-18 | AI tính công thức EVM chuẩn + diễn giải kết quả dễ hiểu cho sponsor; AI Agent có thể tự kéo số liệu actual cost/tiến độ từ hệ thống tài chính/Jira thay vì PM nhập tay mỗi tháng | Số liệu PV/EV/AC đã tính từ hệ thống tài chính/Excel | Excel có công thức EVM + Claude diễn giải; nâng cấp: AI Agent (MCP kết nối hệ thống tài chính/Atlassian) tự lấy số liệu, PM chỉ đối chiếu & duyệt trước khi gửi | Assistance |
 | PP-19 | AI mô phỏng kịch bản đàm phán/phản biện trước khi PM vào cuộc họp thật | Ghi chú lịch sử tương tác giữa các phòng ban liên quan | Claude đóng vai các bên liên quan để PM luyện tập trước | Augmentation (con người quyết định 100%) |
-| PP-20 | AI hỗ trợ dựng mô hình/diễn giải kết quả thống kê, PM kiểm tra giả định đầu vào | Dữ liệu rủi ro lịch sử \+ giả định đầu vào PM cung cấp | Excel/Python mô phỏng \+ Claude diễn giải | Augmentation |
-| PP-21 | AI Agent tổng hợp đa nguồn dữ liệu mâu thuẫn (tài chính, tiến độ, rủi ro) thành bức tranh khách quan; AI KHÔNG được đưa ra khuyến nghị go/no-go, chỉ trình bày dữ kiện | Báo cáo tài chính \+ tiến độ \+ rủi ro từ nhiều nguồn (đa hệ thống) | AI Agent (Claude Cowork \+ MCP Drive/Atlassian/tài chính) tự kéo & đối chiếu dữ liệu từ nhiều hệ thống thành 1 bản tổng hợp cho PM/Sponsor quyết | Augmentation (AI KHÔNG được quyết định) |
-| PP-22 | AI multicriteria decision analysis hỗ trợ so sánh ROI/rủi ro/chiến lược giữa các dự án | Danh sách dự án trong danh mục \+ tiêu chí ưu tiên tổ chức | Excel ma trận đa tiêu chí \+ Claude phân tích | Augmentation |
-| PP-23 | AI research mô hình change management (Kotter, ADKAR) \+ soạn nháp kế hoạch truyền thông | Tài liệu văn hóa tổ chức \+ mô hình change management tham khảo | Claude Cowork research \+ soạn thảo kế hoạch | Augmentation |
-| PP-24 | AI mô phỏng kịch bản tái phân bổ \+ tính tác động tài chính từng phương án | Mô hình tài chính đa dự án/chương trình | Excel mô hình tài chính \+ Claude phân tích kịch bản | Augmentation |
+| PP-20 | AI hỗ trợ dựng mô hình/diễn giải kết quả thống kê, PM kiểm tra giả định đầu vào | Dữ liệu rủi ro lịch sử + giả định đầu vào PM cung cấp | Excel/Python mô phỏng + Claude diễn giải | Augmentation |
+| PP-21 | AI Agent tổng hợp đa nguồn dữ liệu mâu thuẫn (tài chính, tiến độ, rủi ro) thành bức tranh khách quan; AI KHÔNG được đưa ra khuyến nghị go/no-go, chỉ trình bày dữ kiện | Báo cáo tài chính + tiến độ + rủi ro từ nhiều nguồn (đa hệ thống) | AI Agent (Claude Cowork + MCP Drive/Atlassian/tài chính) tự kéo & đối chiếu dữ liệu từ nhiều hệ thống thành 1 bản tổng hợp cho PM/Sponsor quyết | Augmentation (AI KHÔNG được quyết định) |
+| PP-22 | AI multicriteria decision analysis hỗ trợ so sánh ROI/rủi ro/chiến lược giữa các dự án | Danh sách dự án trong danh mục + tiêu chí ưu tiên tổ chức | Excel ma trận đa tiêu chí + Claude phân tích | Augmentation |
+| PP-23 | AI research mô hình change management (Kotter, ADKAR) + soạn nháp kế hoạch truyền thông | Tài liệu văn hóa tổ chức + mô hình change management tham khảo | Claude Cowork research + soạn thảo kế hoạch | Augmentation |
+| PP-24 | AI mô phỏng kịch bản tái phân bổ + tính tác động tài chính từng phương án | Mô hình tài chính đa dự án/chương trình | Excel mô hình tài chính + Claude phân tích kịch bản | Augmentation |
 
 ## **3.2 Scoring Rubric chọn công cụ AI (áp dụng cho công cụ PM)**
 
@@ -332,7 +296,7 @@ Cột "Ví dụ công cụ" bên dưới phân biệt 2 dạng công cụ, vì m
 
 2\. Lựa chọn: So sánh Claude Projects vs ChatGPT Projects vs làm thủ công tiếp tục — Claude Projects điểm cao nhất nhờ context window dài, giữ được toàn bộ tài liệu dự án (Charter, RAID log, báo cáo cũ) làm nền tham chiếu liên tục.
 
-3\. Đề xuất: Dùng Claude Projects, tạo 1 project riêng cho mỗi dự án đang quản lý, upload sẵn Charter \+ RAID Log \+ mẫu báo cáo chuẩn.
+3\. Đề xuất: Dùng Claude Projects, tạo 1 project riêng cho mỗi dự án đang quản lý, upload sẵn Charter + RAID Log + mẫu báo cáo chuẩn.
 
 4\. Chi phí: Gói cá nhân, quy đổi ROI: tiết kiệm khoảng 1 giờ/tuần ngay từ tuần đầu.
 
@@ -348,8 +312,8 @@ Cột "Ví dụ công cụ" bên dưới phân biệt 2 dạng công cụ, vì m
 | :---- | :---- | :---- | :---- | :---- |
 | PP-06 | Status report | Giảm 50% thời gian tổng hợp (2h → 1h) trong 2 tuần | 2 tuần | Bấm giờ thực tế trước/sau |
 | PP-04 | Biên bản họp | Giảm 80% thời gian ghi chép tay, action item không sót | 2 tuần | So sánh biên bản AI vs check lại bằng trí nhớ |
-| PP-11 | Email stakeholder khó tính | Giảm 50% thời gian soạn, giữ nguyên tỷ lệ phản hồi tích cực từ stakeholder | 3 tuần | Thời gian soạn \+ theo dõi phản hồi stakeholder có bất thường không |
-| PP-18 | Phân tích EVM (Nâng cao) | AI tính đúng 100% công thức CPI/SPI/EAC so với tính tay, PM luôn tự duyệt trước khi báo cáo sponsor | 1 chu kỳ báo cáo tháng | Đối chiếu số liệu AI vs tính tay \+ log số lần phải sửa |
+| PP-11 | Email stakeholder khó tính | Giảm 50% thời gian soạn, giữ nguyên tỷ lệ phản hồi tích cực từ stakeholder | 3 tuần | Thời gian soạn + theo dõi phản hồi stakeholder có bất thường không |
+| PP-18 | Phân tích EVM (Nâng cao) | AI tính đúng 100% công thức CPI/SPI/EAC so với tính tay, PM luôn tự duyệt trước khi báo cáo sponsor | 1 chu kỳ báo cáo tháng | Đối chiếu số liệu AI vs tính tay + log số lần phải sửa |
 
 # **GIAI ĐOẠN 5 — TEST & KIỂM SOÁT CHẤT LƯỢNG**
 
@@ -381,11 +345,11 @@ Khác với công cụ dành cho end-user khác, với vai trò PM, mức độ 
 
 | Mã | Bước quy trình cũ | Bước có AI hỗ trợ | Tool | Checkpoint con người |
 | :---- | :---- | :---- | :---- | :---- |
-| PP-06 | Nhận status update rời rạc qua chat/email | AI Agent tự gom update từ Slack/Email/Jira vào 1 nơi (không cần PM paste tay từng phòng ban) → AI Project tổng hợp thành báo cáo nháp | Claude Cowork/Agent (MCP Slack/Email/Atlassian) \+ Claude Projects | PM đối chiếu nhanh xem Agent có gom thiếu phòng ban nào không, rồi mới duyệt & gửi báo cáo |
-| PP-04 | Gõ tay biên bản họp trong lúc họp | Ghi âm → AI tóm tắt \+ trích action item | Otter.ai/Fireflies | PM xác nhận action item đúng người, đúng deadline |
-| PP-09 | Viết Risk Register từ đầu | AI gợi ý theo Risk Breakdown Structure (RBS) chuẩn PMBOK → PM chọn lọc, bổ sung theo bối cảnh thật | Claude/ChatGPT \+ checklist RBS | PM luôn là người quyết định mức Impact/Probability cuối cùng |
+| PP-06 | Nhận status update rời rạc qua chat/email | AI Agent tự gom update từ Slack/Email/Jira vào 1 nơi (không cần PM paste tay từng phòng ban) → AI Project tổng hợp thành báo cáo nháp | Claude Cowork/Agent (MCP Slack/Email/Atlassian) + Claude Projects | PM đối chiếu nhanh xem Agent có gom thiếu phòng ban nào không, rồi mới duyệt & gửi báo cáo |
+| PP-04 | Gõ tay biên bản họp trong lúc họp | Ghi âm → AI tóm tắt + trích action item | Otter.ai/Fireflies | PM xác nhận action item đúng người, đúng deadline |
+| PP-09 | Viết Risk Register từ đầu | AI gợi ý theo Risk Breakdown Structure (RBS) chuẩn PMBOK → PM chọn lọc, bổ sung theo bối cảnh thật | Claude/ChatGPT + checklist RBS | PM luôn là người quyết định mức Impact/Probability cuối cùng |
 | PP-11 | Soạn email thuyết phục stakeholder khó tính | AI soạn draft theo DISC profile của stakeholder đó | Claude/ChatGPT | PM chỉnh sửa câu chữ nhạy cảm trước khi gửi |
-| PP-18 | Tính tay CPI/SPI/EAC mỗi tháng, dễ nhầm công thức | AI tính EVM tự động từ số liệu thô \+ diễn giải bằng ngôn ngữ cho sponsor | Excel công thức \+ Claude diễn giải | PM đối chiếu số liệu gốc trước khi đưa vào báo cáo chính thức |
+| PP-18 | Tính tay CPI/SPI/EAC mỗi tháng, dễ nhầm công thức | AI tính EVM tự động từ số liệu thô + diễn giải bằng ngôn ngữ cho sponsor | Excel công thức + Claude diễn giải | PM đối chiếu số liệu gốc trước khi đưa vào báo cáo chính thức |
 
 ## **6.2 Nhịp độ tích hợp vào lịch làm việc tuần của PM**
 
@@ -394,7 +358,7 @@ Khác với công cụ dành cho end-user khác, với vai trò PM, mức độ 
 | Thứ 2 | AI Agent gom status update tuần trước từ Slack/Email/Jira → AI dựng khung báo cáo tuần, PM đối chiếu & duyệt (PP-06) |
 | Thứ 3–5 | Mỗi cuộc họp quan trọng → bật ghi âm AI, cuối ngày duyệt lại biên bản (PP-04) |
 | Thứ 6 | AI hỗ trợ soạn email tuần tới cho stakeholder cần theo dõi sát (PP-11) |
-| Cuối tháng | AI hỗ trợ tính EVM \+ tổng hợp Monthly Report từ 4 báo cáo tuần đã có (PP-18) |
+| Cuối tháng | AI hỗ trợ tính EVM + tổng hợp Monthly Report từ 4 báo cáo tuần đã có (PP-18) |
 | Cuối quý (lộ trình tương lai, sau khi Quick Win đã thành thục) | Bắt đầu dùng AI hỗ trợ (không quyết định thay) cho rà soát portfolio và tái phân bổ ngân sách (PP-22, PP-24) — chỉ triển khai khi đã quen với nguyên tắc Human-in-the-loop ở mục 5.2 |
 
 # **GIAI ĐOẠN 7 — ĐÓNG GÓI THÀNH SOP VẬN HÀNH CHÍNH THỨC**
@@ -465,7 +429,7 @@ Không liệt kê hết 29 pain point ở dạng chi tiết (xem bảng tổng h
 | Vai trò AI | Automation |
 | Harness cần thiết | Không cần kết nối ngoài — chạy trong 1 phiên chat thông thường |
 
-### **Skill Card — PP-04: Tóm tắt biên bản họp \+ Action Item**
+### **Skill Card — PP-04: Tóm tắt biên bản họp + Action Item**
 
 | Trường | Nội dung |
 | :---- | :---- |
@@ -494,7 +458,7 @@ Không liệt kê hết 29 pain point ở dạng chi tiết (xem bảng tổng h
 | Trường | Nội dung |
 | :---- | :---- |
 | Trigger | "Tổng hợp status report tuần từ các update sau" |
-| Input cần thiết | Context dự án cố định (Charter/RAID log — lưu 1 lần, không soạn lại mỗi tuần) \+ update thô từng phòng ban tuần này |
+| Input cần thiết | Context dự án cố định (Charter/RAID log — lưu 1 lần, không soạn lại mỗi tuần) + update thô từng phòng ban tuần này |
 | Rule bất biến | Given thiếu update từ 1 phòng ban nào đó, When tổng hợp báo cáo tuần, Then ghi rõ "chưa có update" cho phòng ban đó — KHÔNG suy đoán số liệu thay thế. Given có rủi ro được nêu trong update gốc, When viết lại thành báo cáo, Then giữ nguyên mức độ nghiêm trọng, KHÔNG được làm dịu ngôn từ. |
 | Output chuẩn | \[Phòng ban\]: \[Trạng thái Green/Yellow/Red\], \[Tóm tắt 1 câu\], \[Action cần làm\] |
 | Checkpoint con người | PM đọc duyệt toàn bộ phần Risk/Issue trước khi gửi — bắt buộc, không được bỏ qua |
@@ -556,7 +520,7 @@ Không liệt kê hết 29 pain point ở dạng chi tiết (xem bảng tổng h
 | Trigger | "Phân tích nguyên nhân gốc & so sánh phương án cho vấn đề: \[mô tả\]" |
 | Input cần thiết | Mô tả vấn đề, các phương án đã nghĩ tới (nếu có) |
 | Rule bất biến | Dùng khung fishbone (People/Process/Tools/Environment); mỗi điểm số trong bảng so sánh phải kèm giải thích giả định — không cho điểm mà không giải thích |
-| Output chuẩn | Danh sách nguyên nhân gốc theo khung fishbone \+ bảng so sánh phương án (Impact/Effort/Cost/Risk/Score) |
+| Output chuẩn | Danh sách nguyên nhân gốc theo khung fishbone + bảng so sánh phương án (Impact/Effort/Cost/Risk/Score) |
 | Checkpoint con người | PM tự chọn phương án cuối — AI chỉ trình bày so sánh, KHÔNG đề xuất "phương án tốt nhất" |
 | Vai trò AI | Assistance |
 | Harness cần thiết | Không cần kết nối ngoài |
@@ -583,13 +547,13 @@ Không liệt kê hết 29 pain point ở dạng chi tiết (xem bảng tổng h
 | Output chuẩn | Diễn giải bằng ngôn ngữ phi kỹ thuật cho sponsor (nhanh/chậm bao nhiêu %, dự báo hoàn thành) |
 | Checkpoint con người | PM đối chiếu số liệu gốc trước khi đưa vào báo cáo chính thức — bắt buộc |
 | Vai trò AI | Augmentation |
-| Harness cần thiết | Không cần kết nối ngoài ở bản diễn giải; bản tự động kéo số liệu tài chính cần MCP \+ hỗ trợ kỹ thuật — và nên cách ly việc TÍNH TOÁN trong Excel/công thức đã kiểm chứng, không giao AI tự tính |
+| Harness cần thiết | Không cần kết nối ngoài ở bản diễn giải; bản tự động kéo số liệu tài chính cần MCP + hỗ trợ kỹ thuật — và nên cách ly việc TÍNH TOÁN trong Excel/công thức đã kiểm chứng, không giao AI tự tính |
 
 ### **Skill Card — PP-21: Tổng hợp dữ liệu cho quyết định go/no-go (Chuyên sâu — Data Synthesis)**
 
 | Trường | Nội dung |
 | :---- | :---- |
-| Trigger | "Tổng hợp dữ liệu tài chính \+ tiến độ \+ rủi ro sau thành 1 bảng để tôi ra quyết định" |
+| Trigger | "Tổng hợp dữ liệu tài chính + tiến độ + rủi ro sau thành 1 bảng để tôi ra quyết định" |
 | Input cần thiết | Báo cáo tài chính, tiến độ, rủi ro từ nhiều nguồn — kể cả khi các nguồn mâu thuẫn nhau |
 | Rule bất biến | Given 2 nguồn dữ liệu trở lên có con số khác nhau cho cùng 1 chỉ tiêu (VD: tiến độ báo cáo bởi Trưởng phòng khác với số liệu trên Jira), When tổng hợp, Then liệt kê CẢ HAI số liệu kèm nguồn — KHÔNG tự chọn số nào đáng tin hơn để trình bày. Given đã tổng hợp xong toàn bộ dữ liệu, When trình bày kết quả, Then KHÔNG đưa ra khuyến nghị go/no-go hay bất kỳ hình thức gợi ý quyết định nào — chỉ trình bày dữ kiện khách quan. |
 | Output chuẩn | Bảng tổng hợp khách quan theo từng tiêu chí, có mục riêng "Điểm dữ liệu mâu thuẫn cần làm rõ" |
@@ -604,7 +568,7 @@ Không liệt kê hết 29 pain point ở dạng chi tiết (xem bảng tổng h
 | PP-01 | Soạn Charter/business case theo template | Có — tự chủ cao (Automation) |
 | PP-02 | Lập danh sách stakeholder ban đầu | Có — tự chủ cao (Automation) |
 | PP-03 | Soạn WBS cấp 1–2 từ scope đã có | Có — tự chủ cao (Automation) |
-| PP-04 | Ghi biên bản họp \+ action item | Có — tự chủ cao (Automation) |
+| PP-04 | Ghi biên bản họp + action item | Có — tự chủ cao (Automation) |
 | PP-25 | Soạn agenda trước họp | Có — tự chủ cao (Automation) |
 | PP-05 | Soạn email cập nhật định kỳ | Có — tự chủ cao (Automation) |
 | PP-06 | Tổng hợp status report tuần | Có — tự chủ cao (Automation) |
@@ -633,7 +597,7 @@ Không liệt kê hết 29 pain point ở dạng chi tiết (xem bảng tổng h
 
 ## **9.5 Cách lưu Skill Card để dùng lại — không phụ thuộc 1 công cụ AI cụ thể**
 
-* Nếu công cụ AI đang dùng có tính năng lưu ngữ cảnh/hướng dẫn cố định cho 1 không gian làm việc riêng (project, custom instruction, system prompt...): lưu nguyên văn cột "Rule bất biến" \+ "Output chuẩn" vào đó — từ lần sau chỉ cần gõ đúng Trigger.
+* Nếu công cụ AI đang dùng có tính năng lưu ngữ cảnh/hướng dẫn cố định cho 1 không gian làm việc riêng (project, custom instruction, system prompt...): lưu nguyên văn cột "Rule bất biến" + "Output chuẩn" vào đó — từ lần sau chỉ cần gõ đúng Trigger.
 
 * Nếu công cụ chưa hỗ trợ tính năng này: lưu toàn bộ Skill Card (mục 9.3) thành 1 file tham chiếu cố định, mở kèm khi bắt đầu phiên làm việc — vẫn nhanh hơn nhiều so với soạn lại rule từ trí nhớ.
 
@@ -643,11 +607,11 @@ Không liệt kê hết 29 pain point ở dạng chi tiết (xem bảng tổng h
 
 Mỗi Skill Card được thiết kế để dùng RIÊNG theo đúng Trigger của nó, không phải để nạp cả 29 card cùng lúc vào 1 project/system prompt. Nạp dồn nhiều bộ Rule khác nhau vào cùng 1 ngữ cảnh dễ khiến AI nhầm lẫn quy tắc giữa các use case (VD: áp nhầm rule của PP-11 khi đang làm PP-06), hoặc bỏ sót chỉ dẫn quan trọng do bị loãng giữa quá nhiều nội dung.
 
-* Nguyên tắc: 1 Skill Card \= 1 context riêng (1 project/1 phiên chat), chỉ nạp đúng Skill Card cần dùng cho việc đang làm.
+* Nguyên tắc: 1 Skill Card = 1 context riêng (1 project/1 phiên chat), chỉ nạp đúng Skill Card cần dùng cho việc đang làm.
 
 * Nếu dùng chung 1 project cho nhiều Skill Card liên quan (VD: PP-06 và PP-12 đều dùng chung context dự án), nên ghi rõ ranh giới giữa các Rule bất biến của từng Skill trong cùng project đó, tránh để AI trộn lẫn.
 
-* Nếu số lượng Skill Card cần dùng thường xuyên tăng lên nhiều, cân nhắc giữ 1 danh sách "Skill đang hoạt động" ngắn gọn (tên \+ Trigger, không kèm Rule chi tiết) để dễ chọn đúng Skill trước khi mở đầy đủ nội dung — đây là bản rút gọn, làm thủ công, của ý tưởng "chỉ nạp thông tin cần thiết khi cần".
+* Nếu số lượng Skill Card cần dùng thường xuyên tăng lên nhiều, cân nhắc giữ 1 danh sách "Skill đang hoạt động" ngắn gọn (tên + Trigger, không kèm Rule chi tiết) để dễ chọn đúng Skill trước khi mở đầy đủ nội dung — đây là bản rút gọn, làm thủ công, của ý tưởng "chỉ nạp thông tin cần thiết khi cần".
 
 # **GIAI ĐOẠN 10 — QUẢN TRỊ RỦI RO & ĐẠO ĐỨC KHI PM DÙNG AI**
 
@@ -682,19 +646,19 @@ Xu hướng ngành đang hướng tới môi trường doanh nghiệp có nhiề
 
 # **TÓM TẮT QUY TRÌNH END-TO-END**
 
-* 1\. Nghiên cứu sâu (Time Audit \+ Process Mapping \+ Self-Interview theo 4 cấp độ)
+* 1\. Nghiên cứu sâu (Time Audit + Process Mapping + Self-Interview theo 4 cấp độ)
 
 * 2\. Ưu tiên hóa (Ma trận Impact–Effort → chọn Quick Win trước, gắn vai trò AI Automation/Assistance/Augmentation)
 
-* 3\. Đề xuất tool (Scoring Rubric riêng cho PM \+ Recommendation Memo \+ Nguồn dữ liệu tham chiếu)
+* 3\. Đề xuất tool (Scoring Rubric riêng cho PM + Recommendation Memo + Nguồn dữ liệu tham chiếu)
 
 * 4\. Pilot từng use case (Plan–Test–Pilot–Feedback–Iterate–Gate)
 
-* 5\. Test chuyên sâu (Severity Distortion, Fabrication, Confidentiality...) \+ Human-in-the-loop theo cấp độ
+* 5\. Test chuyên sâu (Severity Distortion, Fabrication, Confidentiality...) + Human-in-the-loop theo cấp độ
 
-* 6\. Tích hợp vào lịch làm việc thật (bảng Workflow cũ vs mới \+ nhịp độ tuần/quý)
+* 6\. Tích hợp vào lịch làm việc thật (bảng Workflow cũ vs mới + nhịp độ tuần/quý)
 
-* 7\. Đóng gói SOP cá nhân (Skill Card library \+ Human-in-the-loop rules)
+* 7\. Đóng gói SOP cá nhân (Skill Card library + Human-in-the-loop rules)
 
 * 8\. Đo lường & rà soát định kỳ (mỗi quý)
 
