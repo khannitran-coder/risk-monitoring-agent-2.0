@@ -8,3 +8,4 @@ venv/
 pytest-results.xml
 .env
 .DS_Store
+runs/
