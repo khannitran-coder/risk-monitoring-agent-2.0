@@ -1,0 +1,26 @@
+name: Synthetic Demo Verification
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sprint-risk-monitoring-agent
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: sprint-risk-monitoring-agent/pyproject.toml
+      - name: Install package
+        run: python -m pip install -e ".[dev]"
+      - name: Verify synthetic human checkpoint flow
+        run: python scripts/verify_demo.py
