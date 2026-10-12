@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.1 — làm phẳng cấu trúc repo
+Toàn bộ dự án trước đây nằm trong thư mục con `sprint-risk-monitoring-agent/` nên các liên kết ở README gốc (`docs/SOP-AI-PM.md`, `CHANGELOG.md`, ...) trả về 404 trên GitHub. Đã đưa `docs/`, `src/`, `tests/`, `scripts/`, `pyproject.toml`, `LICENSE`, `CHANGELOG.md` lên gốc repo, xoá README trùng lặp, cập nhật workflow CI cho khớp, thêm `.gitignore`. Đã kiểm tra 11/11 liên kết nội bộ hợp lệ; 67 test và demo verification vẫn pass.
+
 ## 1.0.0 — repo hoàn chỉnh đầu tiên
 Trước đó repo chỉ có cấu trúc thiết kế rỗng. Bản này triển khai v1.0 thật (client giả, 67 test) và chỉnh tài liệu theo review kiến trúc.
 
