@@ -662,4 +662,4 @@ Xu hướng ngành đang hướng tới môi trường doanh nghiệp có nhiề
 
 * 8\. Đo lường & rà soát định kỳ (mỗi quý)
 
-*Ghi chú sử dụng tài liệu: Đây là SOP thật — 29 pain point ở Giai đoạn 1–3 phản ánh đúng phổ công việc quản lý dự án từ Cơ bản đến Chuyên sâu/Chiến lược theo PMBOK® Guide, Eighth Edition. Cập nhật lại bảng ở Giai đoạn 1.4 mỗi quý khi có pain point mới hoặc khi 1 pain point đã "tốt nghiệp" sang mức độ tự động hóa cao hơn.*
+*Ghi chú sử dụng tài liệu: SOP — 29 pain point ở Giai đoạn 1–3 phản ánh đúng phổ công việc quản lý dự án từ Cơ bản đến Chuyên sâu/Chiến lược theo PMBOK® Guide, Eighth Edition. Cập nhật lại bảng ở Giai đoạn 1.4 mỗi quý khi có pain point mới hoặc khi 1 pain point đã "tốt nghiệp" sang mức độ tự động hóa cao hơn.*
