@@ -2,7 +2,8 @@
 
 > Agent giám sát rủi ro sprint từ 3 nguồn độc lập (Jira, GitHub, Slack): chỉ gán mức rủi ro khi **≥2/3 nguồn cùng xác nhận**, định tuyến theo mức độ, và **luôn dừng chờ PM duyệt** trước khi gửi bất cứ thứ gì ra ngoài.
 
-`Python 3.11+` · `LangGraph` · `Pydantic` · `pytest` — Xây theo khung SOP cá nhân ([docs/SOP-AI-PM.md](./docs/SOP-AI-PM.md))
+`Python 3.11+` · `LangGraph` · `Pydantic` · `pytest` — Xây theo khung SOP cá nhân ([docs/SOP-AI-PM.md](./docs/SOP-AI-PM.md)), tham chiếu PMBOK® Guide 8th, Appendix X3.
+
 ## Trạng thái (đọc trước)
 
 | Hạng mục | Trạng thái |
