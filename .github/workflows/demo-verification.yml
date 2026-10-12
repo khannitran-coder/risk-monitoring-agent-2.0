@@ -23,4 +23,4 @@ jobs:
       - name: Install package
         run: python -m pip install -e ".[dev]"
       - name: Verify synthetic human checkpoint flow
-        run: python scripts/verify_demo.py
+        run: python -m scripts.verify_demo
